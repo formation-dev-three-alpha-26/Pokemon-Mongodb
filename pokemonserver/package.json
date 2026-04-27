@@ -4,8 +4,8 @@
   "description": "A Pokémon API",
   "main": "server/index.js",
   "scripts": {
-    "start": "nodemon server",
-    "seed:db": "node server/db/seed"
+  "start": "nodemon server/server.js",
+  "seed:db": "node server/db/seed"
   },
   "author": "You!",
   "private": true,
