@@ -1,5 +1,5 @@
 var express = require('express');
-var db = require('./db');
+require('./db/config');
 
 
 var app = express();
